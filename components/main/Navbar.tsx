@@ -66,7 +66,7 @@ const Navbar = () => {
       {isMobileMenuOpen && (
         <div className="md:hidden backdrop-blur-sm bg-[#03001417]/90 shadow-lg transition-all duration-300">
           <div className="flex flex-col items-center mt-2 space-y-2 py-2 animate-dropdown">
-            {['/', '/About', '/Services','/Our-Projects', '/Career', '/Contact'].map((href, index) => (
+            {['/', '/about', '/services','/Our-Projects', '/career', '/contact'].map((href, index) => (
               <motion.div
                 key={href}
                 custom={index}
